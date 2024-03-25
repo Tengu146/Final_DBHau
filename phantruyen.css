@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    border: black solid;
+    padding: auto;
+    text-align: center;
+    
+}
+.chu{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+.chu:hover{
+    color: black;
+}
+.logo {
+    color: #d63f3f;
+    font-size: larger;
+}
+ul li a {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 20px;
+}
+li{
+    list-style-type: none;
+}
+.trangchu {
+    background-color: rgb(95, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.danhsach {
+    position: relative;
+    display: inline-block;
+}
+
+.khodanhsach {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.khodanhsach a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(95, 230, 230);
+}
+.danhsach:hover .khodanhsach {
+    display: block;
+}
+nav li {
+    list-style-type: none;
+
+}
+
+.nav .danhsach .khodanhsach {
+    display: none;
+}
+.truyen{
+    padding: 10px;
+    text-align: left ;
+}
+.anh{
+    width: auto ;
+    max-width: 200px;
+    height: 400px;
+}
+.noidung{
+    width: 100%;
+    display: flex;
+}
+.noidung image{
+    width: 30%;
+}
+.gioithieu{
+    padding: 10px;
+    display: block;
+}
+.gioithieu p{
+    color: grey ;
+}
+.theloai a{
+    text-decoration: none;
+    color: aqua;
+}
+.theloai a:hover{
+    color: peachpuff;
+}
+.noi{
+    width: 50%;
+    text-align: left;
+    border: 1px rgb(38, 131, 148) solid;
+}
+.noidungchuong{
+    border: 1px rgb(38, 131, 148) solid;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.chuong{
+    text-align: left;
+    overflow: auto;
+    height: 200px;
+    
+}
+.chuong a{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+.chuong a:hover{
+    color: purple;
+}
+.ket {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+}
+.thongtin{
+    width: 30%;
+    height: auto;
+    color: black;
+}
+.tukhoa{
+    width: 70%;
+}
+.tukhoa a{
+    border: solid black;
+    text-decoration: none;
+    color: black;
+}
+.tukhoa a:hover{
+    color: palevioletred;
+}

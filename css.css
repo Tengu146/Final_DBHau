@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    border: black solid;
+    padding: auto;
+    text-align: center;
+    
+}
+.chu{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+.chu:hover{
+    color: rgb(68, 29, 29);
+}
+.logo {
+    color: #d63f3f;
+    font-size: larger;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.trangchu {
+    background-color: rgb(95, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.danhsach {
+    position: relative;
+    display: inline-block;
+}
+
+.khodanhsach {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.khodanhsach a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(95, 230, 230);
+}
+.danhsach:hover .khodanhsach {
+    display: block;
+}
+nav li {
+    list-style-type: none;
+
+}
+
+.nav .danhsach .khodanhsach {
+    display: none;
+}
+.wed{
+    display: flex;
+    width: 100%;
+}
+.noidung {
+    width: 80%;
+    height: auto;
+    display: flex;
+    border-top: none;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.phanbenkia{
+    width: 20%;
+}
+.danhsachtop{
+    width: auto;
+    height: 40%;
+    overflow: auto;
+    border: solid black;
+    text-decoration: none;
+}
+.danhsachtop img{
+    width: 50px;
+    height: 50px;
+}
+.ds{
+    margin: auto;
+    text-align: center;
+    border-bottom: black solid;
+}
+.danhsachtop a{
+    color: black;
+    text-decoration: none;
+}
+.danhsachtop a:hover{
+    color: palevioletred;
+   
+}
+.truyen{
+    margin-top: 10px;
+    flex: 1 0 33.33%;
+    display: flex;
+}
+.anh {
+    margin-left: 10px;
+     max-width: 100px;
+   width: 50%;
+    height: auto;
+}
+.tieude{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.tieude:hover{
+    color:#d63f3f;
+}
+.dangky{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 1000px;
+    height: auto;
+    padding: 10px;
+}
+.button{
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 500px;
+}
+.ket {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+}
+.thongtin{
+    width: 30%;
+    height: auto;
+    color: black;
+}
+.tukhoa{
+    width: 70%;
+}
+.tukhoa a{
+    border: solid black;
+    text-decoration: none;
+    color: black;
+}
+.tukhoa a:hover{
+    color: palevioletred;
+}
